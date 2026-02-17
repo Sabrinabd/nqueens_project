@@ -1,0 +1,121 @@
+Model,Description,N,Status,Time(s),Nodes,Failures,Propagations,Solutions
+01_naive.mzn,Naïf (contraintes binaires),8,SAT,0.00034637,94,44,5546,1
+01_naive.mzn,Naïf (contraintes binaires),10,SAT,0.00044114,84,39,8099,1
+01_naive.mzn,Naïf (contraintes binaires),12,SAT,0.00030168,47,19,5039,1
+01_naive.mzn,Naïf (contraintes binaires),15,SAT,0.00707623,1071,531,183407,1
+01_naive.mzn,Naïf (contraintes binaires),20,SAT,0.12173000,11417,5702,3299437,1
+01_naive.mzn,Naïf (contraintes binaires),25,SAT,1.43434000,101668,50825,36497325,1
+01_naive.mzn,Naïf (contraintes binaires),30,SAT,0.39405900,17700,8839,10214912,1
+01_naive.mzn,Naïf (contraintes binaires),40,TIMEOUT,300.00000000,,,,0
+02_global.mzn,Contraintes globales,8,SAT,0.00017755,47,22,1415,1
+02_global.mzn,Contraintes globales,10,SAT,0.00016620,17,5,722,1
+02_global.mzn,Contraintes globales,12,SAT,0.00030884,74,34,2838,1
+02_global.mzn,Contraintes globales,15,SAT,0.00017636,16,4,888,1
+02_global.mzn,Contraintes globales,20,SAT,0.00039399,65,27,2982,1
+02_global.mzn,Contraintes globales,25,SAT,0.00080667,120,51,5762,1
+02_global.mzn,Contraintes globales,30,SAT,0.00055041,67,22,3641,1
+02_global.mzn,Contraintes globales,40,SAT,0.00079694,64,16,4563,1
+03_ff_min.mzn,First-Fail + Min,8,SAT,0.00022468,47,22,1374,1
+03_ff_min.mzn,First-Fail + Min,10,SAT,0.00033754,17,5,731,1
+03_ff_min.mzn,First-Fail + Min,12,SAT,0.00034426,74,34,2818,1
+03_ff_min.mzn,First-Fail + Min,15,SAT,0.00015303,16,4,851,1
+03_ff_min.mzn,First-Fail + Min,20,SAT,0.00045936,65,27,2992,1
+03_ff_min.mzn,First-Fail + Min,25,SAT,0.00060883,120,51,5738,1
+03_ff_min.mzn,First-Fail + Min,30,SAT,0.00048839,67,22,3651,1
+03_ff_min.mzn,First-Fail + Min,40,SAT,0.00058490,64,16,4582,1
+04_ff_max.mzn,First-Fail + Max,8,SAT,0.00019845,47,22,1415,1
+04_ff_max.mzn,First-Fail + Max,10,SAT,0.00013026,17,5,722,1
+04_ff_max.mzn,First-Fail + Max,12,SAT,0.00029948,74,34,2838,1
+04_ff_max.mzn,First-Fail + Max,15,SAT,0.00015962,16,4,888,1
+04_ff_max.mzn,First-Fail + Max,20,SAT,0.00038832,65,27,2983,1
+04_ff_max.mzn,First-Fail + Max,25,SAT,0.00064836,120,51,5761,1
+04_ff_max.mzn,First-Fail + Max,30,SAT,0.00045891,67,22,3641,1
+04_ff_max.mzn,First-Fail + Max,40,SAT,0.00058079,64,16,4563,1
+05_ff_split.mzn,First-Fail + Split,8,SAT,0.00032405,49,22,1258,1
+05_ff_split.mzn,First-Fail + Split,10,SAT,0.00019397,24,5,644,1
+05_ff_split.mzn,First-Fail + Split,12,SAT,0.00031273,80,33,2644,1
+05_ff_split.mzn,First-Fail + Split,15,SAT,0.00016484,28,4,777,1
+05_ff_split.mzn,First-Fail + Split,20,SAT,0.00042058,86,27,3016,1
+05_ff_split.mzn,First-Fail + Split,25,SAT,0.00102741,150,51,5561,1
+05_ff_split.mzn,First-Fail + Split,30,SAT,0.00051071,108,22,3718,1
+05_ff_split.mzn,First-Fail + Split,40,SAT,0.00080143,136,16,5036,1
+06_input_order.mzn,Input Order,8,SAT,0.00020799,49,23,1413,1
+06_input_order.mzn,Input Order,10,SAT,0.00023375,49,22,1616,1
+06_input_order.mzn,Input Order,12,SAT,0.00032236,86,40,3178,1
+06_input_order.mzn,Input Order,15,SAT,0.00145521,391,191,15104,1
+06_input_order.mzn,Input Order,20,SAT,0.16328900,41033,20511,1738828,1
+06_input_order.mzn,Input Order,25,SAT,0.02003710,4439,2212,210716,1
+06_input_order.mzn,Input Order,30,SAT,26.61670000,5443325,2721654,286825786,1
+06_input_order.mzn,Input Order,40,TIMEOUT,300.00000000,,,,0
+07_smallest.mzn,Smallest,8,SAT,0.00018773,51,24,1354,1
+07_smallest.mzn,Smallest,10,SAT,0.00019823,45,20,1319,1
+07_smallest.mzn,Smallest,12,SAT,0.00042836,79,36,2404,1
+07_smallest.mzn,Smallest,15,SAT,0.00148249,355,173,11431,1
+07_smallest.mzn,Smallest,20,SAT,0.10496600,29755,14872,1110113,1
+07_smallest.mzn,Smallest,25,SAT,0.00587463,1409,697,58296,1
+07_smallest.mzn,Smallest,30,SAT,10.62410000,2352116,1176049,99925406,1
+07_smallest.mzn,Smallest,40,TIMEOUT,300.00000000,,,,0
+08_dom_w_deg.mzn,Dom/Wdeg,8,SAT,0.00019638,47,22,1374,1
+08_dom_w_deg.mzn,Dom/Wdeg,10,SAT,0.00012593,17,5,731,1
+08_dom_w_deg.mzn,Dom/Wdeg,12,SAT,0.00030000,74,34,2818,1
+08_dom_w_deg.mzn,Dom/Wdeg,15,SAT,0.00014055,16,4,851,1
+08_dom_w_deg.mzn,Dom/Wdeg,20,SAT,0.00034385,65,27,2992,1
+08_dom_w_deg.mzn,Dom/Wdeg,25,SAT,0.00061749,120,51,5738,1
+08_dom_w_deg.mzn,Dom/Wdeg,30,SAT,0.00041243,67,22,3651,1
+08_dom_w_deg.mzn,Dom/Wdeg,40,SAT,0.00051320,64,16,4582,1
+09_symmetry_basic.mzn,Symétrie basique,8,SAT,0.00017991,47,22,1377,1
+09_symmetry_basic.mzn,Symétrie basique,10,SAT,0.00012982,17,5,734,1
+09_symmetry_basic.mzn,Symétrie basique,12,SAT,0.00030410,74,34,2823,1
+09_symmetry_basic.mzn,Symétrie basique,15,SAT,0.00013936,16,4,856,1
+09_symmetry_basic.mzn,Symétrie basique,20,SAT,0.00034673,65,27,2993,1
+09_symmetry_basic.mzn,Symétrie basique,25,SAT,0.00061724,120,51,5739,1
+09_symmetry_basic.mzn,Symétrie basique,30,SAT,0.00041279,67,22,3653,1
+09_symmetry_basic.mzn,Symétrie basique,40,SAT,0.00086158,64,16,4585,1
+10_symmetry_advanced.mzn,Symétrie avancée,8,SAT,0.00021284,47,22,1376,1
+10_symmetry_advanced.mzn,Symétrie avancée,10,SAT,0.00013058,17,5,735,1
+10_symmetry_advanced.mzn,Symétrie avancée,12,SAT,0.00031529,74,34,2822,1
+10_symmetry_advanced.mzn,Symétrie avancée,15,SAT,0.00013774,16,4,856,1
+10_symmetry_advanced.mzn,Symétrie avancée,20,SAT,0.00038052,65,27,2994,1
+10_symmetry_advanced.mzn,Symétrie avancée,25,SAT,0.00060545,120,51,5740,1
+10_symmetry_advanced.mzn,Symétrie avancée,30,SAT,0.00043473,67,22,3654,1
+10_symmetry_advanced.mzn,Symétrie avancée,40,SAT,0.00053814,64,16,4586,1
+11_redundant.mzn,Contraintes redondantes,8,SAT,0.00025615,43,20,3688,1
+11_redundant.mzn,Contraintes redondantes,10,SAT,0.00020932,17,5,2455,1
+11_redundant.mzn,Contraintes redondantes,12,SAT,0.00046450,62,28,7710,1
+11_redundant.mzn,Contraintes redondantes,15,SAT,0.00023025,14,3,4252,1
+11_redundant.mzn,Contraintes redondantes,20,SAT,0.00065508,49,19,9324,1
+11_redundant.mzn,Contraintes redondantes,25,SAT,0.00097920,108,45,22242,1
+11_redundant.mzn,Contraintes redondantes,30,SAT,0.00084627,55,16,19775,1
+11_redundant.mzn,Contraintes redondantes,40,SAT,0.00181802,50,9,36818,1
+12_bounds.mzn,Propagation bounds,8,SAT,0.00036888,43,20,1305,1
+12_bounds.mzn,Propagation bounds,10,SAT,0.00022082,17,5,723,1
+12_bounds.mzn,Propagation bounds,12,SAT,0.00034228,62,28,2481,1
+12_bounds.mzn,Propagation bounds,15,SAT,0.00017228,14,3,839,1
+12_bounds.mzn,Propagation bounds,20,SAT,0.00030842,49,19,2325,1
+12_bounds.mzn,Propagation bounds,25,SAT,0.00073823,108,45,5450,1
+12_bounds.mzn,Propagation bounds,30,SAT,0.00042075,53,15,3077,1
+12_bounds.mzn,Propagation bounds,40,SAT,0.00075894,50,9,4016,1
+13_random.mzn,Random,8,SAT,0.00007863,6,0,152,1
+13_random.mzn,Random,10,SAT,0.00010827,14,4,559,1
+13_random.mzn,Random,12,SAT,0.00012275,11,1,496,1
+13_random.mzn,Random,15,SAT,0.00028594,55,22,2288,1
+13_random.mzn,Random,20,SAT,0.00017269,15,0,825,1
+13_random.mzn,Random,25,SAT,0.00047709,69,25,3244,1
+13_random.mzn,Random,30,SAT,0.00033550,27,2,1817,1
+13_random.mzn,Random,40,SAT,0.00059089,63,15,4130,1
+14_combined_optimal.mzn,Combiné optimal,8,SAT,0.00017379,47,22,1377,1
+14_combined_optimal.mzn,Combiné optimal,10,SAT,0.00017847,17,5,734,1
+14_combined_optimal.mzn,Combiné optimal,12,SAT,0.00034498,74,34,2823,1
+14_combined_optimal.mzn,Combiné optimal,15,SAT,0.00014349,16,4,856,1
+14_combined_optimal.mzn,Combiné optimal,20,SAT,0.00033962,65,27,2993,1
+14_combined_optimal.mzn,Combiné optimal,25,SAT,0.00062594,120,51,5739,1
+14_combined_optimal.mzn,Combiné optimal,30,SAT,0.00042791,67,22,3653,1
+14_combined_optimal.mzn,Combiné optimal,40,SAT,0.00056687,64,16,4585,1
+15_max_regret.mzn,Max Regret,8,SAT,0.00023992,64,30,1706,1
+15_max_regret.mzn,Max Regret,10,SAT,0.00037559,126,60,3522,1
+15_max_regret.mzn,Max Regret,12,SAT,0.00043939,145,69,3943,1
+15_max_regret.mzn,Max Regret,15,SAT,0.00048759,127,58,4084,1
+15_max_regret.mzn,Max Regret,20,SAT,0.00667832,1983,985,61701,1
+15_max_regret.mzn,Max Regret,25,SAT,0.00014757,13,0,1334,1
+15_max_regret.mzn,Max Regret,30,SAT,0.98945500,256542,128260,8640956,1
+15_max_regret.mzn,Max Regret,40,SAT,114.77900000,24427261,12213614,899935903,1

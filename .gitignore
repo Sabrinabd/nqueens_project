@@ -1,0 +1,6 @@
+# Environnement virtuel
+venv/
+
+# Résultats
+results/
+*.csv

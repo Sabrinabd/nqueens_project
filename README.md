@@ -11,7 +11,7 @@ nqueens_project/
 ├── results/         # Résultats des benchmarks (CSV + visualisations)
 ├── benchmark.py     # Script automatique de benchmark
 ├── visualize.py     # Script de visualisation des résultats
-└── README.md        # Ce fichier
+└── README.md        
 ```
 
 ## Modèles testés
@@ -59,26 +59,11 @@ cd nqueens_project
 python benchmark.py
 ```
 
-Le script va :
-
-- Tester les 15 modèles sur 9 tailles différentes (8 à 50)
-- Générer un fichier CSV avec tous les résultats
-- Afficher un résumé dans le terminal
-- **Durée estimée : 10-30 minutes** selon la machine
-
 ### Visualiser les résultats
 
 ```bash
 python visualize.py results/benchmark_XXXXXXXX_XXXXXX.csv
 ```
-
-Génère :
-
-- **time_comparison.png** - Comparaison des temps d'exécution
-- **nodes_comparison.png** - Nombre de nœuds explorés
-- **best_per_size.png** - Meilleur modèle par taille
-- **success_rate.png** - Taux de réussite par modèle
-- **summary.txt** - Résumé textuel détaillé
 
 ### Tester un modèle spécifique
 
